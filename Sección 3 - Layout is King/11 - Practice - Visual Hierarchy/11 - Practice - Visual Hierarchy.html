@@ -9,49 +9,41 @@
         <script src="../../base/js/main.js" defer></script>
     </head>
     <body>
-        <header>
-            <nav class="nav collapsible" >
+        <div class="container grid grid--2x2">
+            <div class="container__logo" >
                 <a href="/" class="nav__brand" >
                     <h2 class="nav__heading" >Vincent<span class="nav__heading--light" >Law</span></h2>
                 </a>
-                <img class="icon nav__toggle" src="../../base/images/menu.png" alt="">
-                <ul class="list nav__list collapsible__content" >
-                    <li class="nav__item" >
-                        <a href="#">Services</a>
-                    </li>
-                    <li class="nav__item" >
-                        <a href="#">Pricing</a>
-                    </li>
-                    <li class="nav__item" >
-                        <a href="#">Blog</a>
-                    </li>
-                    <li class="nav__item" >
-                        <a class="btn btn--ghost" href="#">Call Now</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <main class="grid grid--1x2" >
-            <section class="block profile" >
+            </div>
+            <header class="container__navbar" >
+                <nav class="nav collapsible" >
+                    <img class="icon nav__toggle" src="../../base/images/menu.svg" alt="">
+                    <ul class="list nav__list collapsible__content" >
+                        <li class="nav__item" >
+                            <a href="#">Services</a>
+                        </li>
+                        <li class="nav__item" >
+                            <a href="#">Pricing</a>
+                        </li>
+                        <li class="nav__item" >
+                            <a href="#">Blog</a>
+                        </li>
+                        <li class="nav__item" >
+                            <a class="btn btn--ghost" href="#">Call Now</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="container__hero hero">
+                <img class="hero__image" src="../../base/images/man-portrait.jpg" alt="" />
+            </div>
+            <section class="container__profile block profile" >
                 <h1 class="profile__heading" >Vincent
                     Schwartz</h1>
                 <h2 class="profile__tagline" >Boston Divorce Attorney</h2>
                 <p class="profile__text" >A long record of successfully resolving complex divorce & family law matters.</p>
                 <a class="btn btn--primary" href="">Book a Call</a>
             </section>
-            <picture class="hero" >
-                <picture data-aos="zoom-in-left">
-<!--                    <source-->
-<!--                            type="image/webp"-->
-<!--                            srcset="images/easy.webp src/imagesages/easy@2x.webp 2x"-->
-<!--                    />-->
-<!--                    <source-->
-<!--                            type="image/jpg"-->
-<!--                            srcset="images/easy.jpg src/imagesages/easy@2x.jpg 2x"-->
-<!--                    />-->
-                    <img class="hero__image" src="../../base/images/man-portrait.jpg" alt="" />
-                </picture>
-            </picture>
-        </main>
+        </div>
     </body>
 </html>
