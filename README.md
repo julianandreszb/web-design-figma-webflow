@@ -1,1 +1,1 @@
-# complete-web-design-from-figma-to-webflow-to-freelancing
+# Complete Web Design: from Figma to Webflow to Freelancing
